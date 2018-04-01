@@ -7,6 +7,9 @@ const Header = (props) => (
             <div className="row m-auto">
                 <i className="fa fa fa-clock-o fa-4x text-white"></i>
                 <div className="h1 ml-3 my-auto text-light" href="/">{props.title}</div>
+                <h1>
+                    With React Color
+                </h1>
             </div>
         </div>
     </nav>
