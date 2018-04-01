@@ -1,6 +1,21 @@
 body {
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  
 }
+.h1 {
+  font-size: 50px;
+  text-align: center;
+  color: whitesmoke;
+}
+h1 {
+  color: whitesmoke;
+  text-align: center;
+}
+
+
+
 .display {
     align-items: center;
     background-color: #282C34;
@@ -27,11 +42,16 @@ body {
 }
 
 .header {
-    height: 100px;
+    height: 120px;
+    width: auto;
     background-color: #282C34;
+    align-items: center;
     
-
+    
 }
+
+
+
 .panel {
     align-items: center;
     display: flex;
@@ -48,17 +68,15 @@ body {
     color: #333;
 }
 
-/**
- * The following block of CSS is taken directly from https://www.w3schools.com/howto/howto_css_switch.asp
- */
+
 
 /* The switch - the box around the slider */
 .switch {
     padding: 0.5rem;
     position: relative;
     display: inline-block;
-    width: 60px;
-    height: 34px;
+    width: 50px;
+    height: 25px;
   }
   
   /* Hide default HTML checkbox */
@@ -105,7 +123,7 @@ body {
   
   /* Rounded sliders */
   .slider.round {
-    border-radius: 34px;
+    border-radius: 35px;
   }
   
   .slider.round:before {
